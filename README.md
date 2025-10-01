@@ -2,10 +2,10 @@
 // This a security based system based on RFID arduino uno R3, features LCD display users feed back, card verification  and countdown for wrong card attempts for extra security, uses MFRC522 RFID reader, I2C LCD and servo motor.
 
  
-#include <Servo.h>
-#include <LiquidCrystal_I2C.h>
-#include <SPI.h>
-#include <MFRC522.h>
+ #include <Servo.h>
+ #include <LiquidCrystal_I2C.h>
+ #include <SPI.h>
+ #include <MFRC522.h>
 
 #define SS_PIN 10
 #define RST_PIN 9
